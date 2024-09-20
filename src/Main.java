@@ -5,6 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner in =new Scanner(System.in);
         int scelta;
+        String [] marca_auto = new String [];
+        String [] modello_auto = new String [];
+        String [] prezzo_auto = new String [];
+        int conta_auto = 0;
         do{
             System.out.println("CONCESSIONARIO AUTO");
             System.out.println("Aggiungi auto - 1");
